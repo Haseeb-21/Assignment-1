@@ -1,0 +1,81 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(5, fr);
+    grid-template-rows: repeat(4, fr);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    gap: 0.7em;
+}
+
+header {
+    background-color: mediumslateblue;
+    grid-column: 1/6;
+    margin-top: 0;
+    text-align: center; 
+}
+
+main {
+    background-color: lightblue;
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+
+aside {
+    background-color: cadetblue;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 0% 0% 65% 9%;
+}
+
+footer {
+    background-color: cornsilk;
+    grid-column: 1/6;
+    text-align: center;
+}
+
+img {
+    width: 4%;
+}
+
+.btn1 {
+    background-color: violet;
+    border-radius: 0.5em;
+    position: relative;
+    top: 1em;
+    left: 2em;
+}
+
+.btn2 {
+    background-color: slategrey;
+    border-radius: 0.5em;
+    float: right;
+    position: relative;
+    top: 1em;
+    right: 2em;
+}
+
+.text { 
+    border-radius: 0.5em;
+    display: block;
+    width: 85%; 
+    height: 55%;
+    position: relative;
+    top: 3em;
+    left: 5em;
+}
+
+.btn3 {
+    background-color: violet;
+    border-radius: 0.5em;
+    position: relative;
+    top: 5em;
+    left: 30em;
+}
+
+.btn4 {
+    background-color: red;
+    border-radius: 0.5em;
+    position: relative;
+    top: 5em;
+    left: 30em;
+}
