@@ -79,3 +79,9 @@ img {
     top: 5em;
     left: 30em;
 }
+
+@media screen and (max-width:500px) {
+    body {
+        text-align: left; 
+    }
+}
